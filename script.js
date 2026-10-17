@@ -1,0 +1,1 @@
+var r=document.documentElement;try{var s=localStorage.getItem('tema');if(s)r.dataset.theme=s}catch(e){}document.getElementById('tg').onclick=function(){var n=r.dataset.theme==='dark'?'light':'dark';r.dataset.theme=n;try{localStorage.setItem('tema',n)}catch(e){}};
